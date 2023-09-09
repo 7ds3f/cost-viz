@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lexend">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://gistcdn.githack.com/2kai2kai2/0f473c5cc3d4872db3d6bdfbace5a90a/raw/140f29ef7d324704b5a11965322ddf5ead1e607e/IDV_data.js?min=1"></script>
+  <script src="cost-viz-script.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div id="chart-container">
+      <canvas id="chart"></canvas>
+    </div>
+    <div id="platforms-container">
+      <label2>Platforms</label2>
+      <button onclick="togglePlatformCheckboxes()">Toggle All</button>
+      <div id="label-list">
+        <label><input type="checkbox" class="dataset-checkbox" value="Amazon Prime">Amazon Prime</label>
+        <label><input type="checkbox" class="dataset-checkbox" value="Apple TV" checked>Apple TV</label>
+        <label><input type="checkbox" class="dataset-checkbox" value="Crunchyroll">Crunchyroll</label>
+        <label><input type="checkbox" class="dataset-checkbox" value="Disney+">Disney+</label>
+        <label><input type="checkbox" class="dataset-checkbox" value="HBO Max">HBO Max</label>
+        <label><input type="checkbox" class="dataset-checkbox" value="Hulu" checked>Hulu</label>
+        <label><input type="checkbox" class="dataset-checkbox" value="Netflix">Netflix</label>
+        <label><input type="checkbox" class="dataset-checkbox" value="Paramount+" checked>Paramount+</label>
+        <label><input type="checkbox" class="dataset-checkbox" value="Peacock">Peacock</label>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
